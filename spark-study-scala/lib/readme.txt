@@ -1,1 +1,1 @@
-spark-assembly-1.5.1-hadoop2.6.0
+spark-assembly-1.5.1-hadoop2.6.0.jar
