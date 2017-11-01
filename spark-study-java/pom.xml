@@ -111,5 +111,7 @@
       </plugin>
 
     </plugins>
+    
+    <finalName>sparktest</finalName>
   </build>
 </project>
