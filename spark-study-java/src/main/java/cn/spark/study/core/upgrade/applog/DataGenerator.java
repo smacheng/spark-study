@@ -47,7 +47,7 @@ public class DataGenerator {
 		PrintWriter pw = null;  
 		try {
 			pw = new PrintWriter(new OutputStreamWriter(
-					new FileOutputStream("C:\\Users\\Administrator\\Desktop\\access.log")));
+					new FileOutputStream("G:/data/access1.log")));
 			pw.write(buffer.toString());  
 		} catch (Exception e) {
 			e.printStackTrace();
