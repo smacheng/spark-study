@@ -51,6 +51,25 @@
 	  <artifactId>spark-streaming-kafka_2.10</artifactId>
 	  <version>1.6.2</version>
 	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.hive/hive-jdbc -->
+<dependency>
+    <groupId>org.apache.hive</groupId>
+    <artifactId>hive-jdbc</artifactId>
+    <version>1.2.2</version>
+</dependency>
+
+
+<dependency>
+  <groupId>org.apache.httpcomponents</groupId>
+  <artifactId>httpclient</artifactId>
+  <version>4.4.1</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.httpcomponents</groupId>
+  <artifactId>httpcore</artifactId>
+  <version>4.4.1</version>
+</dependency>
   </dependencies>
   
   <build>
@@ -112,6 +131,6 @@
 
     </plugins>
     
-    <finalName>sparktest</finalName>
+    <finalName>sparktestwithparam</finalName>
   </build>
 </project>
